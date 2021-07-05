@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,300;1,400;1,700&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif !important;
+    font-weight: 200 !important;
+    overflow-x: hidden;
+    /* background-color: #EDC2DE !important; */
 }
 
 a{
     text-decoration: none !important;
-    color: brown !important;
+    color: black !important;
 }
 
 a:hover{
@@ -16,3 +19,96 @@ a:hover{
 .img-thumbnail:hover{
     background-color: brown;
 }
+
+button{
+    border-radius: 0 !important;
+    padding: 1em !important;
+    font-weight: bolder !important;
+}
+
+h1{
+    font-weight: 700 !important;
+    font-size: 60px !important;
+}
+
+h2{
+    font-weight: 700 !important;
+}
+
+.first{
+    font-size: 20px !important;
+}
+
+.text-danger{
+    font-size: 20px !important
+}
+
+.second{
+    font-size: 20px !important;
+}
+
+.bx-calendar, .bxs-phone, .bxs-map, .bx-envelope, .bx-home {
+    color: rgb(220, 53, 69);
+}
+
+input, textarea{
+    background-color: rgb(248, 249, 250);
+    border: none;
+}
+
+.image{
+    position: fixed;
+    width: 40%;
+    height: 100%;
+}
+
+a img{
+    background: red !important;
+    color: rgb(255, 0, 0) !important;
+}
+
+a img:hover {
+    opacity: 10% !important;
+    
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image{
+        position: relative !important;
+        width: 100% !important;
+    }
+    .position-lg-relative{
+
+        text-align: justify;
+        margin-left: 0%;
+        position: relative;
+    }
+}
+
+@media (min-width: 1024px){
+    .image{
+        position: fixed !important;
+        width:45% !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .image{
+        position: relative !important;
+        width: 100% !important;
+        height: auto;
+    }
+    .position-lg-relative{
+
+        text-align: justify;
+        margin-left: 0%;
+        position: relative;
+    }
+}
+
+/* .position-lg-relative{
+    position: absolute;
+    right: 0;
+} */
+
+

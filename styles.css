@@ -106,9 +106,8 @@ a img:hover {
     }
 }
 
-/* .position-lg-relative{
-    position: absolute;
-    right: 0;
-} */
+.object{
+    object-fit: contain !important;
+}
 
 
